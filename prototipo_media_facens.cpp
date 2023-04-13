@@ -12,14 +12,14 @@ int main() {
     cout << "digite a nota AF: " << endl;//interface para o usuario
     cin >> nota3;//atribuicao da nota entrada pelo usuario
     
-    ac1= nota1 * 1.5
-    ac2= nota2 * 3.5
-    af= nota1 * 5.0
+    ac1= nota1 * 0.15;
+    ac2= nota2 * 0.35;
+    af= nota3 * 0.5;
     //Multiplicacao das notas pelo devido peso
     
     soma = (ac1 + ac2 + af);//soma das notas
 
-    cout << "A soma das notas eh" << soma << endl;//interface para o usuario informando a soma das notas
+    cout << "A soma das notas eh " << soma << endl;//interface para o usuario informando a soma das notas
 
     if (soma >= 5){
         cout << "Voce foi aprovado! =)" << endl;
