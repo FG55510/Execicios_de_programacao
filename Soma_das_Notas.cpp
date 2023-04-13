@@ -15,9 +15,9 @@ int main() {
     cout << "digite a quarta nota: " << endl;//interface para o usuario
     cin >> nota4;//atribuicao da nota entrada pelo usuario
     
-    soma = (nota1 + nota2 + nota3 + nota4);//soma das notas
+    soma = (nota1 + nota2 + nota3 + nota4)/4;//soma das notas
     
-    cout << "A soma das notas eh" << soma << endl;//interface para o usuario informando a soma das notas
+    cout << "A soma das notas eh " << soma << endl;//interface para o usuario informando a soma das notas
     
     if (soma >= 7){
         cout << "Voce foi aprovado! =)" << endl;
